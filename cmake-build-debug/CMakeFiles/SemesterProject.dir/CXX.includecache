@@ -1,0 +1,54 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/Exercise.h
+vector
+-
+sstream
+-
+
+C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/Graph.cpp
+iostream
+-
+Graph.h
+C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/Graph.h
+Exercise.h
+C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/Exercise.h
+
+C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/Graph.h
+list
+-
+Exercise.h
+C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/Exercise.h
+Node.h
+C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/Node.h
+
+C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/InputReader.h
+Graph.h
+C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/Graph.h
+Exercise.h
+C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/Exercise.h
+iostream
+-
+string
+-
+vector
+-
+
+C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/Node.h
+list
+-
+
+C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/main.cpp
+iostream
+-
+string
+-
+InputReader.h
+C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/InputReader.h
+

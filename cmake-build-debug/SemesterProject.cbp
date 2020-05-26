@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SemesterProject"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Jakub Sroka\Documents\ADPTO\SemesterProject\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Jakub Sroka\Documents\ADPTO\SemesterProject\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Jakub Sroka\Documents\ADPTO\SemesterProject\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Jakub Sroka\Documents\ADPTO\SemesterProject\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SemesterProject">
+				<Option output="C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/cmake-build-debug/SemesterProject.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Jakub Sroka\Documents\ADPTO\SemesterProject\cmake-build-debug\Makefile&quot; VERBOSE=1 SemesterProject"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Jakub Sroka\Documents\ADPTO\SemesterProject\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Jakub Sroka\Documents\ADPTO\SemesterProject\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Jakub Sroka\Documents\ADPTO\SemesterProject\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SemesterProject/fast">
+				<Option output="C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/cmake-build-debug/SemesterProject.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Jakub Sroka\Documents\ADPTO\SemesterProject\cmake-build-debug\Makefile&quot; VERBOSE=1 SemesterProject/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Jakub Sroka\Documents\ADPTO\SemesterProject\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Jakub Sroka\Documents\ADPTO\SemesterProject\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Jakub Sroka\Documents\ADPTO\SemesterProject\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Jakub Sroka\Documents\ADPTO\SemesterProject\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Jakub Sroka\Documents\ADPTO\SemesterProject\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Jakub Sroka\Documents\ADPTO\SemesterProject\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Jakub Sroka\Documents\ADPTO\SemesterProject\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Jakub Sroka\Documents\ADPTO\SemesterProject\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Jakub Sroka\Documents\ADPTO\SemesterProject\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Jakub Sroka\Documents\ADPTO\SemesterProject\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Jakub Sroka\Documents\ADPTO\SemesterProject\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/Algorythm.cpp">
+			<Option target="SemesterProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/Algorythm.h">
+			<Option target="SemesterProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/Exercise.cpp">
+			<Option target="SemesterProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/Exercise.h">
+			<Option target="SemesterProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/Graph.cpp">
+			<Option target="SemesterProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/Graph.h">
+			<Option target="SemesterProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/InputReader.cpp">
+			<Option target="SemesterProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/InputReader.h">
+			<Option target="SemesterProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/Node.cpp">
+			<Option target="SemesterProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/Node.h">
+			<Option target="SemesterProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/src/main.cpp">
+			<Option target="SemesterProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Jakub Sroka/Documents/ADPTO/SemesterProject/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
