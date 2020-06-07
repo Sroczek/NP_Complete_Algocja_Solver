@@ -12,11 +12,10 @@
 
 class Graph {
 
-private:
+public:
     std::list<Node*> nodes;
     std::list<std::pair<int, Node*>> connectedComponents;
     void findConnectedComponents();
-public:
     Graph(const Exercise& exercise);
 };
 

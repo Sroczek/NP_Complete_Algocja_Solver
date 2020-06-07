@@ -14,9 +14,8 @@ public:
     static void findSolution(Graph &graph, int _L, int K){
         Algorythm::L = _L;
         Algorythm::solve(graph, K);
-    }
-    static void solve(Graph &graph, int k);
+    };
+    static bool solve(Graph &graph, int k);
 };
-
 
 #endif //SEMESTERPROJECT_ALGORYTHM_H
