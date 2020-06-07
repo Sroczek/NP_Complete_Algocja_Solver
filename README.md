@@ -1,0 +1,1 @@
+Repozytorium zawiera implementacja algorytmu dokładnego do rozwiązanie problemu z dziadziny NP.
